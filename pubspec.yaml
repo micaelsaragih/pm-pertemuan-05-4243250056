@@ -1,0 +1,19 @@
+name: pm_pertemuan_05_4243250056
+description: Praktikum 5 - Kartu Nama Digital Micael Zecsen Saragih
+publish_to: none
+version: 1.0.0+1
+environment:
+  sdk: '>=3.13.0 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  material_ui: ^1.9.0
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/profile_placeholder.png
+    - assets/images/profile_micael.png
