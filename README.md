@@ -113,17 +113,39 @@ flutter test
 
 Target: `No issues found!` dan `All tests passed!` (3 widget test).
 
-## Screenshot Praktikum
+## Bukti Screenshot Praktikum
 
-Screenshot disimpan di folder `docs/` setelah praktikum dijalankan:
+Seluruh screenshot berikut diambil dari hasil menjalankan dan memeriksa aplikasi, kemudian disimpan di folder `docs/`.
 
-1. `docs/01-profil-terang.png` — kartu profil mode terang.
-2. `docs/02-tema-gelap.png` — mode gelap setelah menekan `IconButton`.
-3. `docs/03-ikuti-dan-snackbar.png` — jumlah pengikut 129, tombol Diikuti, atau SnackBar kontak.
-4. `docs/04-widget-inspector.png` — jalur widget dari `Scaffold` ke `ListTile`.
-5. `docs/05-analyze-test.png` — output `flutter analyze` dan `flutter test` berhasil.
+### 1. Profil dalam mode terang
 
-> Tautan gambar akan ditambahkan setelah file screenshot tersedia.
+Tampilan kartu nama digital Micael dengan foto profil, identitas, bio, keahlian, dan informasi kontak.
+
+![Profil Micael dalam mode terang](docs/01-profil-terang.png)
+
+### 2. Pergantian ke tema gelap (Tantangan 2)
+
+Tampilan aplikasi sesudah ikon tema pada AppBar ditekan.
+
+![Profil Micael dalam mode gelap](docs/02-tema-gelap.png)
+
+### 3. Tombol Ikuti dan SnackBar (Tantangan 3 dan 4)
+
+Bukti interaksi tombol Ikuti/Diikuti, perubahan jumlah pengikut, dan notifikasi SnackBar simulasi.
+
+![Interaksi tombol Ikuti dan SnackBar](docs/03-ikuti-dan-snackbar.png)
+
+### 4. Flutter Widget Inspector
+
+Bukti pemeriksaan susunan widget aplikasi menggunakan Flutter Widget Inspector.
+
+![Struktur widget pada Flutter Inspector](docs/04-widget-inspector.png)
+
+### 5. Hasil analisis dan pengujian
+
+Bukti pemeriksaan kode dan widget test menggunakan `flutter analyze` serta `flutter test`. Hasil pengujian yang dilaporkan: **No issues found!** dan **All tests passed! (3/3)**.
+
+![Hasil flutter analyze dan flutter test](docs/05-analyze-test.png)
 
 ## Pernyataan Penggunaan AI
 
